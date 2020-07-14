@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1904807234832098}
+  m_IsPrefabAsset: 1
+--- !u!1 &1904807234832098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4463886996131760}
+  - component: {fileID: 114821034517347616}
+  - component: {fileID: 114247890333285550}
+  - component: {fileID: 114268296047214930}
+  - component: {fileID: 114968972666339688}
+  - component: {fileID: 114523432778513568}
+  m_Layer: 0
+  m_Name: GameManager 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4463886996131760
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904807234832098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.283646, y: -30.614153, z: 16.92575}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114247890333285550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904807234832098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230c27fa72214b543b998ca66532790a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  selectedMaterial: {fileID: 2100000, guid: 1f6f6ef5df47b2d478e218eaffe52e0f, type: 2}
+  unselectedMaterial: {fileID: 2100000, guid: 0b95defd9d899d54b8c989033b3ee94d, type: 2}
+  softSelectMaterial: {fileID: 2100000, guid: c665e02be4a079f4c838e85505527348, type: 2}
+--- !u!114 &114268296047214930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904807234832098}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26020cbdc1d716b44a285fa7d7727005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  avaliableMaterial: {fileID: 2100000, guid: b4991fd2a64927f4797c0468d4e2489d, type: 2}
+  softSelectMaterial: {fileID: 2100000, guid: c8bf0721ff02cc944906265fb7af8d27, type: 2}
+  unselectedMaterial: {fileID: 2100000, guid: 2fc4d3a6abffd7f42b8b6c174bccea3a, type: 2}
+  chosenTile: {fileID: 0}
+--- !u!114 &114523432778513568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904807234832098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf40bbc7ca54fe54eb08877bdf5f46d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  avaliable: {fileID: 0}
+  blackTile: {fileID: 0}
+  wx: 0
+  wy: 0
+  bx: 0
+  by: 0
+--- !u!114 &114821034517347616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904807234832098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110cdf4196af7ed45a2d351ada3960fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  selectedMaterial: {fileID: 2100000, guid: 1f6f6ef5df47b2d478e218eaffe52e0f, type: 2}
+  unselectedMaterial: {fileID: 2100000, guid: 682f47e134c96dd4ba52c7783c95eb4f, type: 2}
+  softSelectMaterial: {fileID: 2100000, guid: 137357c82e9d68943986a19eb6fb7d87, type: 2}
+--- !u!114 &114968972666339688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904807234832098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12cbac241bf9db346ba051f37baee2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pieceWhite: {fileID: 1938593251119666, guid: f65fe629e0d1c4746835c9b2272ae3cf, type: 2}
+  pieceBlack: {fileID: 1938593251119666, guid: d902ac97de4ed5e4ba4fbe9a988b5731, type: 2}
